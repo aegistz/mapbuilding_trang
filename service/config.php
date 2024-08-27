@@ -5,21 +5,24 @@
 // $password = "Ltax!@1234";
 // $dbname = "ltax2";
 // $port = 33011;
-// $servername = "containers-us-west-17.railway.app";
-// $username = "postgres";
-// $password = "eTsjHbGjwQ2enmZ6GiCA";
-// $dbname = "railway";
-// $port = 5487;
+
+$servername = "postgis.railway.internal";
+$username = "postgres";
+$password = "123456";
+$dbname = "railway";
+$port = 5432;
+
 // $servername = "localhost";
 // $username = "postgres";
 // $password = "123456";
 // $dbname = "railway";
 // $port = 5432;
-$servername = "35.213.147.91";
-$username = "postgres";
-$password = "123456";
-$dbname = "railway";
-$port = 46333;
+
+// $servername = "35.213.147.91";
+// $username = "postgres";
+// $password = "123456";
+// $dbname = "railway";
+// $port = 46333;
 
 header('Content-Type: text/html; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
